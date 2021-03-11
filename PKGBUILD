@@ -1,12 +1,12 @@
-# Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
+# Maintainer: Bruno Miguel <https://twitter.com/brunomiguel>
 
 pkgname=userrepository-mirrorlist
 pkgver=0.0.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Userrepository.eu mirror list for pacman"
 arch=('any')
 url="https://raw.githubusercontent.com/brunomiguel/userrepository-mirrorlist/main/"
-license=('GPL')
+license=('GPL3')
 backup=(etc/pacman.d/userrepository-mirrorlist)
 source=(mirrorlist)
 install=userrepository.install
