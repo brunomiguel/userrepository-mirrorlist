@@ -27,5 +27,5 @@ package() {
   install -m644 "$srcdir/mirrorlist" "$pkgdir/etc/pacman.d/userrepository-mirrorlist"
 }
 
-sha256sums=('c27836273386f23e2cf0ff5be2a76701adcc51a3b55ab97381299e911786c64d')
+sha256sums=('5558c32995ca1ae359709cb63f9dafd57db64bc9ff11626b3e110c9e0d290599')
 
